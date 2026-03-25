@@ -5,3 +5,31 @@ body {
 h1 {
     color: #d66ab2;
 }
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f0f0f0;
+}
+
+.nav__bar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav__bar ul li {
+    list-style: none;
+}
+
+.nav__bar ul li a {
+    text-decoration: none;
+    color: #d66ab2;
+    font-weight: bolder;
+    padding: 1rem;
+    display: block;
+}
+
+.nav__bar li:hover {
+    background-color: antiquewhite;
+}
