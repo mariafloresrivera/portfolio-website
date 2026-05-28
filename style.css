@@ -1,6 +1,9 @@
 body {
     font-family: sans-serif;
     background-color: #f0f0f0;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     color: #d66ab2;
@@ -10,6 +13,11 @@ h1 {
     justify-content: space-between;
     align-items: center;
     color: #f0f0f0;
+    padding-left: 3%;
+    height: 10%;
+    border-style: none none solid none;
+    border-color: grey;
+    border-bottom-width: 1px;
 }
 
 .nav__bar ul {
@@ -32,4 +40,35 @@ h1 {
 
 .nav__bar li:hover {
     background-color: antiquewhite;
+}
+
+.content{
+    display: flex;
+    height: 35%;
+    margin-top: 10%;
+}
+
+.left_content{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.right_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#pp{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 100%;
 }
